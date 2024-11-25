@@ -1,0 +1,14 @@
+
+Window>>>Document >>>html >>>Head >>> meta tag >>>>Body >>> h1 or h2 and others
+
+Many section and div setup....
+
+
+DOM = Document Object Model
+#CRUD Operation >>> 
+Create = Data input
+READ = Data ~insert~
+UPDATE = Change
+DELETE = Remove
+
+

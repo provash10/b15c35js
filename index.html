@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 35 @Problem Solving Class</title>
+</head>
+<body>
+    <h1>This is a heading</h1>
+
+
+    <form action="" method="">
+        <label>Enter Your Avarage Marks :  </label>
+        <input type="number" name="marks" id="marks" value="" onkeyup="grade()">
+    </form>
+    <!-- <h4 id="result">The Grade is = A+</h4> -->
+    <h4 id="result"></h4>
+
+    <script>
+        function grade(){
+    let marks = document.getElementById('marks' ).value;
+
+    if(parseFloat(marks) >= 80){
+        document.getElementById("result").innerHTML = "The Grade is = A+";
+    }
+    else if(parseFloat(marks) >= 70){
+        document.getElementById('result').innerHTML = "The Grade is = A";
+    }
+    else if(parseFloat(marks) >= 60){
+        document.getElementById('result').innerHTML = "The Grade is = A-";
+    }
+    else if(parseFloat(marks) >= 50){
+        document.getElementById('result').innerHTML = "The Grade is = B";
+    }else if(parseFloat(marks) >= 40){
+        document.getElementById('result').innerHTML = "The Grade is = C";
+    }else if(parseFloat(marks) >= 33){
+        document.getElementById('result').innerHTML = "The Grade is = D";
+    }
+    else {
+        document.getElementById('result').innerHTML = "Failed";
+    }
+}
+    </script>
+
+
+    <!-- <script src="js/script.js"></script> -->
+</body>
+</html>
